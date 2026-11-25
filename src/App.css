@@ -1,0 +1,40 @@
+:root {
+      /* Background Colors */
+      --color-bg-primary: #0B1020;
+      --color-bg-secondary: #111827;
+      --color-bg-tertiary: #1F2937;
+
+      /* Brand Colors */
+      --color-primary: #22D3EE;
+      --color-primary-hover: #06B6D4;
+      --color-secondary: #8B5CF6;
+      --color-secondary-hover: #7C3AED;
+
+      /* Text Colors */
+      --color-text-primary: #F9FAFB;
+      --color-text-secondary: #D1D5DB;
+      --color-text-muted: #9CA3AF;
+
+      /* Border Colors */
+      --color-border: #374151;
+      --color-border-hover: #22D3EE;
+
+
+
+}
+
+body{
+      margin: 0;
+      background-color: var(--color-bg-primary);
+      font-family: sans-serif;
+}
+
+#root {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+}
+
+main {
+      flex: 1;
+}
